@@ -4,22 +4,12 @@ import { View, StyleSheet } from 'react-native';
 import { Ionicons, MaterialCommunityIcons } from '@expo/vector-icons';
 import HomeScreen from '../screens/HomeScreen';
 import CartScreen from '../screens/CartScreen';
+import WalletScreen from '../screens/WalletScreen';
+import FavoritesScreen from '../screens/FavoritesScreen';
+import ProfileScreen from '../screens/ProfileScreen';
 import { colors } from '../constants/colors';
 
 const Tab = createBottomTabNavigator();
-
-// Placeholder screens
-function WalletScreen() {
-  return <View style={styles.placeholderScreen} />;
-}
-
-function FavoritesScreen() {
-  return <View style={styles.placeholderScreen} />;
-}
-
-function ProfileScreen() {
-  return <View style={styles.placeholderScreen} />;
-}
 
 export default function BottomTabNavigator() {
   return (
